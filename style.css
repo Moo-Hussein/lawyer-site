@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.classheader {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    padding: 0px 100px;
+    width: 100%;
+    background-color: rgb(58, 11, 102);
+    height: 50px;
+    position: fixed;
+    z-index: 9999;
+    border-top: 2px solid red;
+
+}
+.classheader nav a {
+    text-decoration:none;
+    color: white;
+    margin-right: 10px;
+    width: 20%; 
+    font-size: 18px;
+    transition: ease 0.5s;
+}
+nav a:hover {
+    color: red;
+    font-size: 20px;
+
+}
+.carsourClass {
+    background: linear-gradient(
+        to right bottom , rgba(0,0,0,0.9),rgba(0,0,0,0.5)),
+    url(istockphoto-859896852-612x612.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+
+}
+.carsourClass div {
+    margin-left: 30px;
+}
+.carsourClass span {
+    color: red;
+    font-family: 'Pacifico', cursive; 
+
+}
+.carsourClass a {
+    text-decoration : none;
+color: white;
+padding: 10px;
+background-color: rgb(58, 11, 102);
+border-radius: 10px;
+display: inline-block;
+margin-top: 10px;
+transition: ease 1s;
+}
+.carsourClass div a:hover {
+    background-color: red;
+    transform: scale(1.1);
+    transform: skewY(10deg);
+
+}
+.ServicesClasss h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.ServicesClasss .content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.ServicesClasss .card {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 6px 6px gray;
+
+}
+ServicesClasss .content .h3 {
+    color: red;
+}
+.ServicesClasss .shapicon {
+   color:  rgb(58, 11, 102);
+    font-size: 20px;
+}
+.portofilioo {
+    background-color: #1f276f;
+    color: wheat;
+    text-align: center;
+}
+.portofilioo h2 {
+    border-bottom: solid red 2px;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.portofilioo .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.portofilioo .container .card {
+color: black;
+width: 30%;
+background-color: white;
+border: solid black 2px;
+border-radius: 20px;
+margin-top: 30px;
+overflow: hidden;
+}
+.portofilioo img {
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    height: 250px;
+    object-fit: cover;
+
+}
+.portofilioo button {
+    background-color: rgb(58, 11, 102);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 1.6;
+    transition: ease 1s;
+
+}
+.portofilioo button:hover {
+    background-color: red;
+    transform: scale(1.1);
+    transform: skewY(360deg); }
